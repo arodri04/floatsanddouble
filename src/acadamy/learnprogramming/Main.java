@@ -27,5 +27,11 @@ public class Main {
         System.out.println("myIntValue= "+ myIntValue);
         System.out.println("myFloatValue= "+ myFloatValue);
         System.out.println("myDoubleValue= " + myDoubleValue);
+
+        //Challenge - Make a program that goes from lbs to Kilograms
+
+        double poundValue = 200;
+        double kilogramValue = poundValue * .45359237;
+        System.out.println(poundValue + "lbs is " + kilogramValue + "Kg");
     }
 }
