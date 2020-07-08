@@ -19,8 +19,13 @@ public class Main {
         System.out.println("Double Max: "+ myMaxDouble);
 
 
-        int myIntValue = 5;
-        float myFloatValue = (float) 5.25; // not a recommended use, use double or add f to the end
-        double myDoubleValue = 5.25d;
+        int myIntValue = 5/2;
+        float myFloatValue = (float) 5/3f; // not a recommended use, use double or add f to the end
+        double myDoubleValue = 5d/3d; //notice how this goes out farther decimal places
+
+
+        System.out.println("myIntValue= "+ myIntValue);
+        System.out.println("myFloatValue= "+ myFloatValue);
+        System.out.println("myDoubleValue= " + myDoubleValue);
     }
 }
